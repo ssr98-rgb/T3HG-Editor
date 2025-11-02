@@ -89,23 +89,23 @@ While 3D Gaussian Editing (3DGE) has seen substantial progress, text-driven 3D h
   <tbody>
     <tr>
       <td style="border:1px solid #ddd; padding:6px;">GaussianEditor</td>
-      <td style="border:1px solid #ddd; padding:6px;">0.2238</td>
-      <td style="border:1px solid #ddd; padding:6px;">0.0230</td>
+      <td style="border:1px solid #ddd; padding:6px;">0.2524</td>
+      <td style="border:1px solid #ddd; padding:6px;">0.0889</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd; padding:6px;">DGE</td>
-      <td style="border:1px solid #ddd; padding:6px;">0.2333</td>
-      <td style="border:1px solid #ddd; padding:6px;">0.0624</td>
+      <td style="border:1px solid #ddd; padding:6px;">0.2573</td>
+      <td style="border:1px solid #ddd; padding:6px;">0.1445</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd; padding:6px;">EditSplat</td>
-      <td style="border:1px solid #ddd; padding:6px;">0.2411</td>
-      <td style="border:1px solid #ddd; padding:6px;">0.0910</td>
+      <td style="border:1px solid #ddd; padding:6px;">0.2554</td>
+      <td style="border:1px solid #ddd; padding:6px;">0.1674</td>
     </tr>
     <tr style="font-weight:bold;">
-      <td style="border:1px solid #ddd; padding:6px;">T3HGE (Ours)</td>
-      <td style="border:1px solid #ddd; padding:6px;">0.2543</td>
-      <td style="border:1px solid #ddd; padding:6px;">0.1362</td>
+      <td style="border:1px solid #ddd; padding:6px;">T3HG-Editor (Ours)</td>
+      <td style="border:1px solid #ddd; padding:6px;">0.2660</td>
+      <td style="border:1px solid #ddd; padding:6px;">0.2394</td>
     </tr>
   </tbody>
 </table>

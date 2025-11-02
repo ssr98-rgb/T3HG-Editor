@@ -21,7 +21,7 @@ title: T3HGE:High-fidelity Text-Driven 3D Human Garment Editing with Body Priors
 description: Paper page with results, paper link, and code
 
 url: "https://ssr98-rgb.github.io"
-baseurl: "/T3HGE"  
+baseurl: "/T3HG-Editor"  
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

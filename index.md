@@ -2,7 +2,7 @@
 layout: project_page
 permalink: /
 
-title: "T3HGE: High-fidelity Text-driven 3D Human Garment Editing with Body Priors"
+title: "T3HG-Editor: High-fidelity Text-driven 3D Human Garment Editing with Body Priors Embedded in SMPL-X"
 authors:
 affiliations:
 paper: 
@@ -25,7 +25,8 @@ data:
     <div class="column is-four-fifths">
         <h2>Abstract</h2>
         <div class="content has-text-justified">
-While 3D Gaussian editing has seen substantial progress, text-driven human garment editing remains largely underexplored. Existing methods typically follow a paradigm that applies 2D editing techniques to multi-view rendered images and subsequently updates the 3D Gaussians based on these modified images. Such methods often suffer from distortion due to unintended region contamination and multi-view inconsistencies introduced by per-image independent editing. In this paper, we propose a high-fidelity Text-guided 3D Human Garment Editor (T3HGE), which is developed based on body priors derived from SMPL eXpressive (SMPL-X). T3HGE begins with seeding Gaussians along the normals of the SMPL-X model,  followed by 2D mask filtering to obtain precisely positioned Gaussians for editing. Multi-view consistency is enforced without additional training by aggregating tokens corresponding to the same SMPL-X vertex across key views. Furthermore, T3HGE integrates a Signed Distance Function (SDF)-based human distance field with 2D masks to constrain the duplication and splitting of Gaussians, thereby effectively preventing Gaussian overflow. Experiments on multi-person and multi-garment scenarios demonstrate that T3HGE outperforms existing state-of-the-art methods in both visual quality and cross-view consistency.        </div>
+While 3D Gaussian Editing (3DGE) has seen substantial progress, text-driven 3D human garment editing remains largely underexplored. Existing 3DGE works typically follow a paradigm that applies 2D editing techniques to multi-view rendered images and subsequently updates 3D Gaussians based on the modified images. Extending such methods to 3D human garment editing faces challenges with distortion caused by unintended region contamination and multi-view inconsistencies. In this paper, we propose a high-fidelity text-driven 3D human garment editor, termed T3HG-Editor, which delivers clean unintended regions and multi-view consistency by leveraging body priors embedded in the SMPL eXpressive (SMPL-X) model. Specifically, T3HG-Editor contains three stages, namely obtainment of editable Gaussians, multi-view consistent editing, and Gaussian updating with overflow pruning. The obtainment of editable Gaussians begins with seeding Gaussians along the normals of the SMPL-X model, generating sufficient Gaussians proximate to the body surface. A subsequent 2D mask constraint operation precisely positions the target Gaussians to be edited. The multi-view consistent editing aggregates tokens corresponding to the same SMPL-X vertex across multiple views and propagates them to their original views, enforcing multi-view consistency without requiring additional training. Gaussian updating with overflow pruning employs a Signed Distance Function (SDF) defined on SMPL-X to construct a human distance field, which is then integrated with 2D masks to prune overflowing Gaussians, thus preventing contamination of unintended regions. Experiments on multi-person and multi-garment scenarios demonstrate that T3HG-Editor outperforms existing state-of-the-art methods in both visual quality and cross-view consistency.       
+        </div>
     </div>
 </div>
 

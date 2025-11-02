@@ -17,7 +17,7 @@
 # Build settings
 markdown: kramdown
 
-title: T3HG-Editor: High-fidelity Text-driven 3D Human Garment Editing with Body Priors Embedded in SMPL-X
+title: "T3HG-Editor: High-fidelity Text-driven 3D Human Garment Editing with Body Priors Embedded in SMPL-X"
 description: Paper page with results, paper link, and code
 
 url: "https://ssr98-rgb.github.io"

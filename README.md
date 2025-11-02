@@ -15,7 +15,4 @@ Then you can see the website at `http://127.0.0.1:4000`.
 
 ## Try it in GitHub Codespaces
 
-1. Click on the "<> Code" button on this page, select the "Codespaces" tab, and click "Create codespace on main".
-2. Once the environment is ready, run `jekyll serve` in the terminal.
-3. It should pop up a message saying "Your application running on port 4000 is available." Click "Open in browser" to see the website.
-Or you can click on the "Ports" tab in the bottom panel and look for port 4000 there.
+1. 
